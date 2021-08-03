@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test snapshots match 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#007BA7",
+        "borderColor": "#007BA7",
+        "borderRadius": 20,
+        "borderWidth": 1,
+        "padding": 20,
+      },
+      false,
+    ]
+  }
+  testID="pressHandler"
+>
+  <Text
+    style={
+      Object {
+        "color": "#FFF",
+        "fontSize": 20,
+      }
+    }
+    testID="titleText"
+  >
+    Test title
+  </Text>
+</View>
+`;

@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots match 1`] = `
+<View
+  style={
+    Object {
+      "padding": 20,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 25,
+        "paddingBottom": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    Test Input title
+  </Text>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text>
+        0
+      </Text>
+      <Text>
+        Bad
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        testID="valueText"
+      >
+        0
+      </Text>
+      <RNCSlider
+        disabled={false}
+        enabled={true}
+        inverted={false}
+        maximumTrackTintColor="#000000"
+        maximumValue={10}
+        minimumTrackTintColor="#FFFFFF"
+        minimumValue={0}
+        onChange={null}
+        onRNCSliderSlidingComplete={null}
+        onRNCSliderSlidingStart={null}
+        onRNCSliderValueChange={null}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        step={1}
+        style={
+          Array [
+            Object {
+              "height": 40,
+            },
+            Object {
+              "width": "80%",
+            },
+          ]
+        }
+        thumbImage={
+          Object {
+            "__packager_asset": true,
+            "height": 1,
+            "scale": 1,
+            "uri": "file://assets/full/path/to/directory/name.type",
+            "width": 1,
+          }
+        }
+        value={0}
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text>
+        10
+      </Text>
+      <Text>
+        Good
+      </Text>
+    </View>
+  </View>
+</View>
+`;
